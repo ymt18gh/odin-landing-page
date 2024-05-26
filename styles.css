@@ -30,6 +30,15 @@
     font-weight: 800;
 }
 
+.font-36-extra {
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.text-center {
+    text-align: center;
+}
+
 #container {
     display: flex;
     flex-direction: column;
@@ -65,14 +74,37 @@
 #main #signup {
     color: #F9FAF8;
     background-color: #3882F6;
-    font-size: 18px;
     border-radius: 10px;
     border: none;
     margin-top: 9px;
     padding: 7px 35px;
 }
 
-#introduction img {
-    background: white;
+#information {
+    color: #1F2937;
+    background-color: #F9FAF8;
+    height: 500px;
 }
 
+#info-header {
+    padding-top: 48px;
+}
+
+#img-gp {
+    padding-top: 48px;
+    padding-left: 285px;
+    padding-right: 285px;
+}
+
+#img-gp div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#img-gp p {
+    line-height: 21px;
+    padding-top: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
