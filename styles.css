@@ -10,6 +10,11 @@
     background-color: #1F2937;
 }
 
+.blue-bg {
+    color: #F9FAF8;
+    background-color: #3882F6;
+}
+
 .center-align {
     display: flex;
     justify-content: center;
@@ -78,8 +83,6 @@
 }
 
 #main #signup {
-    color: #F9FAF8;
-    background-color: #3882F6;
     border-radius: 10px;
     border: none;
     margin-top: 9px;
@@ -127,4 +130,29 @@
 #author {
     font-weight: 600;
     text-align: end;
+    padding-right: 26px;
+}
+
+#call-action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1022px;
+    height: 150px;
+    margin-top: 100px;
+    padding-top: 4px;
+    padding-left: 121px;
+    padding-right: 121px;
+    line-height: 26px;
+    border-radius: 8px;
+}
+
+#call-action h3 {
+    letter-spacing: 1.2px;
+}
+
+#call-action button {
+    border-radius: 8px;
+    border: 1px solid #F9FAF8;
+    padding: 6px 34px;
 }
